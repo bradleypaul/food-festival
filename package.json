@@ -1,0 +1,34 @@
+{
+  "name": "food-festival",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleypaul/food-festival.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradleypaul/food-festival/issues"
+  },
+  "homepage": "https://github.com/bradleypaul/food-festival#readme",
+  "devDependencies": {
+    "file-loader": "^6.0.0",
+    "webpack": "^4.44.1",
+    "webpack-bundle-analyzer": "^3.8.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "image-webpack-loader": "^6.0.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
